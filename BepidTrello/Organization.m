@@ -8,7 +8,7 @@
 
 #import "Organization.h"
 
-@implementation Organization 
+@implementation Organization
 
 
 -(NSMutableArray *)getBoards{

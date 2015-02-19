@@ -10,4 +10,22 @@
 
 @implementation List
 
+
+- (Card *)addCard {
+    return nil;
+}
+
+- (void)moveCard {
+    
+}
+
+- (void)archiveCard {
+    
+}
+
+
+- (void)archiveAllCards {
+    
+}
+
 @end

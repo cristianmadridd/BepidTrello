@@ -9,24 +9,35 @@
 #import <Foundation/Foundation.h>
 #import "List.h"
 
-typedef NS_ENUM(NSInteger, AMGMonth) {
-    AMGMonthJanuary = 1
+typedef NS_ENUM(NSInteger, Visibility) {
+    PUBLIC,
+    PRIVATE,
+    ORGANIZATION
 };
 
-@interface Board : NSObject {
-    NSString *name;
-    List *list;
-    NSInteger* visibility;
-    ///AMGMonth a;
-    AMGMonth a;
-    
-    
-}
+typedef NS_ENUM(NSInteger, Colour) {
+    BLUE,
+    YELLOW,
+    WHITE,
+    GREEN,
+    BLACK,
+    RED
+};
+
+@interface Board : NSObject
+
+@property NSMutableArray *lists;
+@property NSMutableArray *member;
+@property Visibility visibility;
+@property NSString *name;
+@property Colour background;
 
 
 
--(void) setVisibility: (AMGMonth*)vis;
+-(void) addList: (NSArray *) list;
+-(void) addMember: (Member *) member;
+-(void) setName: (NSString *) name;
+-(void) setBackgroundColour: (Colour) colour;
+-(void) setVisibility: (Visibility) visibility;
 
-//+ (void)createBoard:(Board *)myBoard;
-//+ (NSString *)getBoards;
 @end

@@ -8,19 +8,32 @@
 
 #import "Board.h"
 
+
 @implementation Board
 
-
-AMGMonth month = AMGMonthJanuary;
-
-
--(void)setVisibility:(AMGMonth *)vis{
-    visibility = AMGMonthJanuary;
-    NSArray *a = [[NSArray alloc]init];
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _lists = [[NSMutableArray alloc]init];
+    }
+    return self;
 }
--(BOOL*) get{
-   
-    return AMGMonthJanuary ==1? YES : NO;
+
+-(void)addList:(NSArray *)list{
+    
+    
+}
+-(void)addMember:(Member *)member{
+    
+}
+
+-(void)setVisibility:(Visibility)visibility{
+    
+}
+
+-(void)setBackgroundColour:(Colour)colour{
+    
 }
 
 @end

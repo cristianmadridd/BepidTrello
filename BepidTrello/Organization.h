@@ -20,5 +20,4 @@
 -(BOOL *)addMember:(Member *)member;
 -(NSMutableArray *)getMembers;
 
-
 @end

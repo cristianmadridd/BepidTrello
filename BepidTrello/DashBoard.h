@@ -13,14 +13,13 @@
 
 @interface DashBoard : NSObject {
     NSArray *organizations;
-    Member *member;
+    Member *member; 
     
 }
 
 @property NSMutableArray *boards;
 
 -(NSArray*) getOrganizations;
-
 -(NSMutableArray *) getBoards;
 -(BOOL *) addBoard: (Board *) board;
 -(Member *) getMember;
