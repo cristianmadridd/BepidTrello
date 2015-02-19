@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		40C096821A96369400A88F27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096811A96369400A88F27 /* main.m */; };
+		40C0968A1A963FA400A88F27 /* Organization.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096891A963FA400A88F27 /* Organization.m */; };
+		40C0968D1A963FB500A88F27 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0968C1A963FB500A88F27 /* Member.m */; };
+		40C096901A963FC100A88F27 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0968F1A963FC100A88F27 /* Board.m */; };
+		40C096931A963FD400A88F27 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096921A963FD400A88F27 /* Card.m */; };
+		40C096961A963FF300A88F27 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096951A963FF300A88F27 /* List.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,16 @@
 /* Begin PBXFileReference section */
 		40C0967E1A96369400A88F27 /* BepidTrello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BepidTrello; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C096811A96369400A88F27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40C096881A963FA400A88F27 /* Organization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Organization.h; sourceTree = "<group>"; };
+		40C096891A963FA400A88F27 /* Organization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Organization.m; sourceTree = "<group>"; };
+		40C0968B1A963FB500A88F27 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		40C0968C1A963FB500A88F27 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		40C0968E1A963FC100A88F27 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		40C0968F1A963FC100A88F27 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		40C096911A963FD400A88F27 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		40C096921A963FD400A88F27 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		40C096941A963FF300A88F27 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		40C096951A963FF300A88F27 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				40C096811A96369400A88F27 /* main.m */,
+				40C096881A963FA400A88F27 /* Organization.h */,
+				40C096891A963FA400A88F27 /* Organization.m */,
+				40C0968B1A963FB500A88F27 /* Member.h */,
+				40C0968C1A963FB500A88F27 /* Member.m */,
+				40C0968E1A963FC100A88F27 /* Board.h */,
+				40C0968F1A963FC100A88F27 /* Board.m */,
+				40C096911A963FD400A88F27 /* Card.h */,
+				40C096921A963FD400A88F27 /* Card.m */,
+				40C096941A963FF300A88F27 /* List.h */,
+				40C096951A963FF300A88F27 /* List.m */,
 			);
 			path = BepidTrello;
 			sourceTree = "<group>";
@@ -118,6 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40C096931A963FD400A88F27 /* Card.m in Sources */,
+				40C0968A1A963FA400A88F27 /* Organization.m in Sources */,
+				40C0968D1A963FB500A88F27 /* Member.m in Sources */,
+				40C096961A963FF300A88F27 /* List.m in Sources */,
+				40C096901A963FC100A88F27 /* Board.m in Sources */,
 				40C096821A96369400A88F27 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
