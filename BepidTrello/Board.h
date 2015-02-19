@@ -17,6 +17,6 @@
 
 // @property
 
-- (void)createBoard:(Board *)myBoard;
-- (NSString *)getBoards;
++ (void)createBoard:(Board *)myBoard;
++ (NSString *)getBoards;
 @end
