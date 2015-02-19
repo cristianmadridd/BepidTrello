@@ -13,6 +13,7 @@
 		40C096901A963FC100A88F27 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0968F1A963FC100A88F27 /* Board.m */; };
 		40C096931A963FD400A88F27 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096921A963FD400A88F27 /* Card.m */; };
 		40C096961A963FF300A88F27 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096951A963FF300A88F27 /* List.m */; };
+		40C0969C1A964B6000A88F27 /* DashBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0969B1A964B6000A88F27 /* DashBoard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -40,6 +41,8 @@
 		40C096921A963FD400A88F27 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
 		40C096941A963FF300A88F27 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
 		40C096951A963FF300A88F27 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		40C0969A1A964B6000A88F27 /* DashBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoard.h; sourceTree = "<group>"; };
+		40C0969B1A964B6000A88F27 /* DashBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				40C096921A963FD400A88F27 /* Card.m */,
 				40C096941A963FF300A88F27 /* List.h */,
 				40C096951A963FF300A88F27 /* List.m */,
+				40C0969A1A964B6000A88F27 /* DashBoard.h */,
+				40C0969B1A964B6000A88F27 /* DashBoard.m */,
 			);
 			path = BepidTrello;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			files = (
 				40C096931A963FD400A88F27 /* Card.m in Sources */,
 				40C0968A1A963FA400A88F27 /* Organization.m in Sources */,
+				40C0969C1A964B6000A88F27 /* DashBoard.m in Sources */,
 				40C0968D1A963FB500A88F27 /* Member.m in Sources */,
 				40C096961A963FF300A88F27 /* List.m in Sources */,
 				40C096901A963FC100A88F27 /* Board.m in Sources */,

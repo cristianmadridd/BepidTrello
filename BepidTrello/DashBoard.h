@@ -1,22 +1,14 @@
 //
-//  Organization.m
+//  DashBoard.h
 //  BepidTrello
 //
 //  Created by Cristian Madrid on 2/19/15.
 //  Copyright (c) 2015 Cristian Madrid. All rights reserved.
 //
 
-#import "Organization.h"
-
-@implementation Organization 
+#import <Foundation/Foundation.h>
 
 
-
-+(NSArray *) getBoards{
-    return nil;
-}
-
-+()
-
+@interface DashBoard : NSObject
 
 @end
