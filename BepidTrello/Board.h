@@ -27,7 +27,7 @@ typedef NS_ENUM(NSInteger, Colour) {
 @interface Board : NSObject
 
 @property NSMutableArray *lists;
-@property NSMutableArray *member;
+@property NSMutableArray *members;
 @property Visibility visibility;
 @property NSString *name;
 @property Colour background;

@@ -16,24 +16,22 @@
     self = [super init];
     if (self) {
         _lists = [[NSMutableArray alloc]init];
+        _members = [[NSMutableArray alloc]init];
     }
     return self;
 }
 
 -(void)addList:(NSArray *)list{
-    
+    [_lists addObject:list ];
     
 }
 -(void)addMember:(Member *)member{
-    
+    [_members addObject:member];
 }
 
--(void)setVisibility:(Visibility)visibility{
-    
-}
 
 -(void)setBackgroundColour:(Colour)colour{
-    
+    _background = colour;
 }
 
 @end
