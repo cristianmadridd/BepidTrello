@@ -9,15 +9,11 @@
 #import <Foundation/Foundation.h>
 #import "Member.h"
 
-@interface Card : NSObject {
-    NSString *description;
-    
-}
-
+@interface Card : NSObject
 @property NSString *description;
 @property NSMutableArray *comments;
 @property Member *cardMember;
-NSData *date;
+@property NSData *date;
 
 - (void)addMember:(Member *)cardMember;
 - (void)addComent;
