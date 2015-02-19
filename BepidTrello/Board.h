@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "List.h"
 
-@interface Board : NSObject
+@interface Board : NSObject {
+    NSString *name;
+    List *list;
+    
+}
 
+// @property
+
+- (void)createBoard:(Board *)myBoard;
+- (NSString *)getBoards;
 @end

@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Board.h"
 
-@interface Organization : NSObject
+@interface Organization : NSObject {
+    Board *myBoard;
+
+}
+
+// @property
+
+- (void)createBoard:(Board *)myBoard;
+- (NSString *)getBoards;
 
 @end

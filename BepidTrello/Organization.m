@@ -8,6 +8,6 @@
 
 #import "Organization.h"
 
-@implementation Organization
+@implementation Organization 
 
 @end
