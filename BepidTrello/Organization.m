@@ -16,7 +16,6 @@
     return nil;
 }
 
-+()
 
 
 @end
