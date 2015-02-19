@@ -7,14 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-<<<<<<< HEAD
 #import "Member.h"
 #import "Board.h"
 #import "Organization.h"
-=======
-#import "Organization.h"
-
->>>>>>> origin/master
 
 @interface DashBoard : NSObject {
     Organization *myOrganization;
