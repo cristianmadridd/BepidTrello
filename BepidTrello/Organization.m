@@ -16,9 +16,4 @@
     return nil;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/master
-
 @end
