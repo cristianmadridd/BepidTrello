@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Application.m"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Application *app = [[Application alloc] init];
+        
+        [app initialize];
     }
     return 0;
 }

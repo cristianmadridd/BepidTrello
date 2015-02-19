@@ -2,12 +2,22 @@
 //  Card.h
 //  BepidTrello
 //
-//  Created by Cristian Madrid on 2/19/15.
-//  Copyright (c) 2015 Cristian Madrid. All rights reserved.
+//  Created by Alexandre Mantovani, Anderson Kloss, Cristian Madrid, Elisa Leo on 2/19/15.
+//  Copyright (c) 2015 Trello Group. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import "Member.h"
 
-@interface Card : NSObject
+@interface Card : NSObject {
+    NSString *description;
+    NSMutableArray *comments;
+    Member *cardMember;
+    NSData *date;
+}
+
++ (void)addMember:(Member *)cardMember;
++ (void)addComent;
+
 
 @end
