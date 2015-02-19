@@ -11,10 +11,13 @@
 
 @interface Card : NSObject {
     NSString *description;
-    NSMutableArray *comments;
-    Member *cardMember;
-    NSData *date;
+    
 }
+
+@property NSString *description;
+@property NSMutableArray *comments;
+@property Member *cardMember;
+NSData *date;
 
 - (void)addMember:(Member *)cardMember;
 - (void)addComent;
