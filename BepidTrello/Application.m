@@ -11,6 +11,8 @@
 @interface Application : NSObject
 
 -(void)initialize;
+-(BOOL)userVerificationByName;
+//createUser
 
 @end
 
