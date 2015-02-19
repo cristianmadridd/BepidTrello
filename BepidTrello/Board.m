@@ -8,6 +8,32 @@
 
 #import "Board.h"
 
+
 @implementation Board
+
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _lists = [[NSMutableArray alloc]init];
+    }
+    return self;
+}
+
+-(void)addList:(NSArray *)list{
+    
+    
+}
+-(void)addMember:(Member *)member{
+    
+}
+
+-(void)setVisibility:(Visibility)visibility{
+    
+}
+
+-(void)setBackgroundColour:(Colour)colour{
+    
+}
 
 @end

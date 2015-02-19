@@ -9,14 +9,37 @@
 #import <Foundation/Foundation.h>
 #import "List.h"
 
-@interface Board : NSObject {
-    NSString *name;
-    List *list;
-    
-}
 
-// @property
+typedef NS_ENUM(NSInteger, Visibility) {
+    PUBLIC,
+    PRIVATE,
+    ORGANIZATION
+};
 
-+ (void)createBoard:(Board *)myBoard;
-+ (NSString *)getBoards;
+typedef NS_ENUM(NSInteger, Colour) {
+    BLUE,
+    YELLOW,
+    WHITE,
+    GREEN,
+    BLACK,
+    RED
+};
+
+@interface Board : NSObject
+
+@property NSMutableArray *lists;
+@property NSMutableArray *member;
+@property Visibility visibility;
+@property NSString *name;
+@property Colour background;
+
+
+
+-(void) addList: (NSArray *) list;
+-(void) addMember: (Member *) member;
+-(void) setName: (NSString *) name;
+-(void) setBackgroundColour: (Colour) colour;
+-(void) setVisibility: (Visibility) visibility;
+
+
 @end
