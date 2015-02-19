@@ -9,14 +9,24 @@
 #import <Foundation/Foundation.h>
 #import "List.h"
 
+typedef NS_ENUM(NSInteger, AMGMonth) {
+    AMGMonthJanuary = 1
+};
+
 @interface Board : NSObject {
     NSString *name;
     List *list;
+    NSInteger* visibility;
+    ///AMGMonth a;
+    AMGMonth a;
+    
     
 }
 
-// @property
 
-+ (void)createBoard:(Board *)myBoard;
-+ (NSString *)getBoards;
+
+-(void) setVisibility: (AMGMonth*)vis;
+
+//+ (void)createBoard:(Board *)myBoard;
+//+ (NSString *)getBoards;
 @end

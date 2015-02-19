@@ -10,4 +10,17 @@
 
 @implementation Board
 
+
+AMGMonth month = AMGMonthJanuary;
+
+
+-(void)setVisibility:(AMGMonth *)vis{
+    visibility = AMGMonthJanuary;
+    NSArray *a = [[NSArray alloc]init];
+}
+-(BOOL*) get{
+   
+    return AMGMonthJanuary ==1? YES : NO;
+}
+
 @end

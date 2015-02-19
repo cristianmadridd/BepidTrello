@@ -9,11 +9,6 @@
 #import "DashBoard.h"
 
 @implementation DashBoard
-{
-    Member *member;
-    NSArray *organizations;
-    NSMutableArray *boards;
-}
 
 -(Member *)getMember{
     

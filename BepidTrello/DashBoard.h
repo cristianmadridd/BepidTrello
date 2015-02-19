@@ -12,8 +12,12 @@
 #import "Organization.h"
 
 @interface DashBoard : NSObject {
-    Organization *myOrganization;
+    NSArray *organizations;
+    Member *member;
+    
 }
+
+@property NSMutableArray *boards;
 
 -(NSArray*) getOrganizations;
 

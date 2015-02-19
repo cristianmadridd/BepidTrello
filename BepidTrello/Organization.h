@@ -9,14 +9,16 @@
 #import <Foundation/Foundation.h>
 #import "Board.h"
 
-@interface Organization : NSObject {
-    Board *myBoard;
+@interface Organization : NSObject
 
-}
+@property NSMutableArray *boards;
+@property NSMutableArray  *members;
 
-// @property
+-(BOOL *)addBoard:(Board *)board;
+-(NSMutableArray *)getBoards;
 
-+ (void)createBoard:(Board *)myBoard;
-+ (NSString *)getBoards;
+-(BOOL *)addMember:(Member *)member;
+-(NSMutableArray *)getMembers;
+
 
 @end
