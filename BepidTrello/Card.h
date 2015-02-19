@@ -16,8 +16,8 @@
     NSData *date;
 }
 
-+ (void)addMember:(Member *)cardMember;
-+ (void)addComent;
+- (void)addMember:(Member *)cardMember;
+- (void)addComent;
 
 
 @end

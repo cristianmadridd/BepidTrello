@@ -8,6 +8,14 @@
 
 #import "Card.h"
 
-@implementation Card
+@implementation Card 
+
+- (Member *)addMember{
+    return nil;
+}
+
+- (void)addComent {
+    
+}
 
 @end

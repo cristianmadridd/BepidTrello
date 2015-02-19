@@ -11,10 +11,8 @@
 
 @interface Organization : NSObject {
     Board *myBoard;
-
+    
 }
-
-// @property
 
 + (void)createBoard:(Board *)myBoard;
 + (NSString *)getBoards;
