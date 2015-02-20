@@ -10,14 +10,14 @@
 #import "Board.h"
 
 @interface Organization : NSObject
+{
+    NSMutableArray *boards;
+    NSMutableArray  *members;
+}
 
-@property NSMutableArray *boards;
-@property NSMutableArray  *members;
-
--(BOOL *)addBoard:(Board *)board;
+-(void)addBoard: (Board *)board;
 -(NSMutableArray *)getBoards;
-
--(BOOL *)addMember:(Member *)member;
+-(void)addMember: (Member *)member;
 -(NSMutableArray *)getMembers;
 
 @end

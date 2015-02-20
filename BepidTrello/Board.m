@@ -15,23 +15,26 @@
 {
     self = [super init];
     if (self) {
-        _lists = [[NSMutableArray alloc]init];
-        _members = [[NSMutableArray alloc]init];
+        lists = [[NSMutableArray alloc]init];
+        members = [[NSMutableArray alloc]init];
     }
     return self;
 }
 
--(void)addList:(NSArray *)list{
-    [_lists addObject:list ];
+-(void)addList:(NSString *)listName{
+    List *list = [[List alloc] init];
+    list.name = listName;
+    
+    [lists addObject:list ];
     
 }
+
 -(void)addMember:(Member *)member{
-    [_members addObject:member];
+    [members addObject:member];
 }
 
-
--(void)setBackgroundColour:(Colour)colour{
-    _background = colour;
+-(void)moveCard:(Card *)card fromList:(List *)fList toList:(List *)tList{
+    
 }
 
 @end

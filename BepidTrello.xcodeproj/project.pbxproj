@@ -124,7 +124,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Cristian Madrid";
+				ORGANIZATIONNAME = "Trello Group";
 				TargetAttributes = {
 					40C0967D1A96369400A88F27 = {
 						CreatedOnToolsVersion = 6.1.1;

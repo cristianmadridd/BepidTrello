@@ -10,14 +10,14 @@
 #import "Card.h"
 
 @interface List : NSObject {
-    Card *cardList;
-    
+    NSMutableArray *cards;
 }
 
-+ (void)addCard:(Card *)cardList;
-+ (void)moveCard;
-+ (void)archiveCard;
-+ (void)archiveAllCards;
+@property(getter=isArquived, setter=arquive:) BOOL *arquived;
+@property NSString *name;
 
+-(void)removeCard: (Card *)card;
+-(void)addCard: (Card *)card;
+-(void)archiveAllCards;
 
 @end

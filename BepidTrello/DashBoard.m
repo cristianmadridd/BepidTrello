@@ -20,15 +20,13 @@
     return nil;
 }
 
--(BOOL *)addBoard:(Board *)board{
-    return NO;
+-(void)addBoard: (Board *)board{
+    
 }
 
 -(NSMutableArray *)getBoards{
     return nil;
 }
-
-
 
 @end
 

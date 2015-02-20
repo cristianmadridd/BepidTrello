@@ -10,13 +10,21 @@
 #import "Member.h"
 
 @interface Card : NSObject
-@property NSString *description;
-@property NSMutableArray *comments;
-@property Member *cardMember;
-@property NSData *date;
+{
+    NSData *initDate;
+    NSMutableArray *comments;
+    NSMutableArray *members;
+    
+}
 
-- (void)addMember:(Member *)cardMember;
-- (void)addComent;
+@property(getter=isArquived, setter=arquive:) BOOL *arquived;
+@property NSString *detail;
+@property NSData *dueDate;
 
+-(void)addMember: (Member *)member;
+-(void)addComment: (NSString *)comment;
+
+-(NSMutableArray *): getMembers;
+-(NSMutableArray *)getComments;
 
 @end

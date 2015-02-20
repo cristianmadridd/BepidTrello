@@ -11,20 +11,20 @@
 @implementation Organization
 
 
--(NSMutableArray *)getBoards{
+-(NSMutableArray *) getBoards{
     return nil;
 }
 
--(BOOL *)addBoard:(Board *)board{
-    return NO;
+-(void)addBoard: (Board *)board{
+    
 }
 
--(NSMutableArray *)getMembers{
+-(NSMutableArray *) getMembers{
     return nil;
 }
 
--(BOOL *)addMember:(Member *)member{
-    return NO;
+-(void)addMember: (Member *)member{
+    
 }
 
 @end
