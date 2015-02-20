@@ -9,17 +9,16 @@
 #import <Foundation/Foundation.h>
 
 @interface Member : NSObject {
-    NSString *name;
     NSString *userName;
     NSString *password;
 }
 
+@property NSString *name;
+
 -(NSString *)getUserName;
--(NSString *)getName;
 -(NSString *)getPassword;
 
 -(void)setUserName: (NSString *)userName;
--(void)setName: (NSString *)name;
 -(void)setPassword: (NSString *)password;
 
 @end

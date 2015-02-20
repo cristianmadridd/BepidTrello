@@ -12,19 +12,19 @@
 
 
 -(NSMutableArray *) getBoards{
-    return nil;
+    return boards;
 }
 
 -(void)addBoard: (Board *)board{
-    
+    [boards addObject:board];
 }
 
 -(NSMutableArray *) getMembers{
-    return nil;
+    return members;
 }
 
 -(void)addMember: (Member *)member{
-    
+    [members addObject:member];
 }
 
 @end

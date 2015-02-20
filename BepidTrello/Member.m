@@ -10,28 +10,21 @@
 
 @implementation Member
 
--(NSString *)getName{
-    return @"";
-}
-
--(void)setName:(NSString *)name{
-
-}
 
 -(NSString *)getUserName{
-    return @"";
+    return userName;
 }
 
--(void)setUserName:(NSString *)userName{
-
+-(void)setUserName:(NSString *)theUserName{
+    userName = theUserName;
 }
 
 -(NSString *)getPassword{
-    return @"sd";
+    return password;
 }
 
--(void)setPassword:(NSString *)password{
-
+-(void)setPassword:(NSString *)thePassword{
+    password = thePassword;
 }
 
 @end
