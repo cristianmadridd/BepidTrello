@@ -26,7 +26,7 @@
         ret =  NO;
     }
     else {
-        for (Member *m in members){
+        for (Member* m in members){
             if ([[m getUserName] isEqualToString:username])
                 ret = YES;
             else
@@ -35,21 +35,6 @@
         ret = NO;
     }
     return ret;
-}
-
--(Member *)getMemberByUserName:(NSString *)username{
-    Member *m = nil;
-    
-    if (members.count == 0)
-        m = nil;
-    else {
-        for (m in members){
-            if ([[m getUserName] isEqualToString:username])
-                return m;
-        }
-    }
-        
-    return m;
 }
 
 @end

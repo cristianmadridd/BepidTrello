@@ -21,6 +21,6 @@
 //-(NSString *)readStringInputFromUser:(NSCharacterSet *)delimiters;
 -(NSString *)readStringInputFromUser;
 -(BOOL)verifyMemberByUsername: (NSString *)username;
--(BOOL)loginWithUserName: (NSString *) userName AndPassword: (NSString *) password;
+-(BOOL *)loginWithUserName: (NSString *) userName AndPassword: (NSString *) password;
 
 @end

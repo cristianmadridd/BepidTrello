@@ -20,40 +20,26 @@
 }
 
 -(void)session{
-    NSLog(@"Welcome to Trello");
+    NSLog(@"Welcome to Trellos");
     
     NSLog(@"1 - Log In");
     NSLog(@"2 - Sign Up");
-    
-    NSString *username;
-    NSString *password;
     
     switch ([self readIntInputFromUser]){
         case 1:
             NSLog(@"Log In");
             NSLog(@"Log in with email and password");
-            NSLog(@"Insert email: ");
+            NSLog(@"Insert password");
             //[self verifyMemberByName:[self readStringInputFromUser:[NSCharacterSet newlineCharacterSet]]];
-            username = [self readStringInputFromUser];
-            if ([self verifyMemberByUsername:username]) {
-                NSLog(@"Insert password: ");
-                password = [self readStringInputFromUser];
-                if ([self loginWithUserName:username AndPassword:password]) {
-                    // Session on
-                    // Show the options
-                }
-                else {
-                    NSLog(@"Invalid password");
-                }
-            }
-            else {
-                NSLog(@"Invalid username");
-                }
+            if ([self verifyMemberByUsername:[self readStringInputFromUser]])
+                // if YES, pass to next stage
+                //verify password
             break;
         case 2:
             NSLog(@"Sign In");
             NSLog(@"Insert an email :");
             
+            // do stuff
             break;
         default:
             NSLog(@"Invalid input");
@@ -89,22 +75,12 @@
 }
 */
 
--(BOOL)verifyMemberByUsername: (NSString *) username{
+
+-(BOOL)verifyMemberByUsername: (NSString *) email{
     BOOL ret = NO;
-    
-    if ([members isMember:username])
+    if ([members isMember:email])
         ret = YES;
     return ret;
-}
-
--(BOOL)loginWithUserName: (NSString *) username AndPassword: (NSString *) password{
-    BOOL ret = NO;
-    Member *member = [members getMemberByUserName:username];
-    
-    if ([[member getPassword] isEqualToString:password])
-        ret = YES;
-
-    return NO;
 }
 
 @end

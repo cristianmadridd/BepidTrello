@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Member.h"
+@class Member;
 
 @interface Members : NSObject
 {
@@ -15,6 +15,5 @@
 }
 
 -(BOOL)isMember:(NSString *) username;
--(Member *)getMemberByUserName:(NSString *) username;
 
 @end
