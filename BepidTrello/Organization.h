@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "Board.h"
+#import "Member.h"
 
 @interface Organization : NSObject
 {

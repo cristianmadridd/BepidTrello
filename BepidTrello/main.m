@@ -11,9 +11,8 @@
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        Application *app = [[Application alloc] init];
+    //Application *app = [[Application alloc] init];
         
-        [app initialize];
     }
     return 0;
 }

@@ -7,18 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Member.h"
 #import "Board.h"
 #import "Organization.h"
 
 @interface DashBoard : NSObject {
     NSMutableArray *organizations;
     NSMutableArray *boards;
-    Member *member;
 }
 
+-(void)addOrganization:(Organization *)organization;
+
 -(NSMutableArray*)getOrganizations;
--(Member *)getMember;
 -(NSMutableArray *)getBoards;
 -(void)addBoard: (Board *)board;
 

@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "List.h"
+#import "Card.h"
+#import "Member.h"
 
 typedef NS_ENUM(NSInteger, Visibility) {
     PUBLIC,

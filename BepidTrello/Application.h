@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Member.h"
 
-@interface Application : NSObject
+@interface Application : NSObject{
+    NSMutableArray *users;
+}
 
--(void)initialize;
--(BOOL)userVerificationByName;
-//createUser
+-(BOOL *)loginWithUserName: (NSString *) userName AndPassword: (NSString *) password;
+-(void)addUser: (Member *)member;
 
 @end
