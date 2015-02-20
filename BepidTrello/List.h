@@ -13,9 +13,10 @@
     NSMutableArray *cards;
 }
 
-@property(getter=isArquived, setter=arquive:) BOOL *arquived;
+@property(getter=isArquived) BOOL *arquived;
 @property NSString *name;
 
+-(NSMutableArray *)getCards;
 -(void)removeCard: (Card *)card;
 -(void)addCard: (Card *)card;
 -(void)archiveAllCards;

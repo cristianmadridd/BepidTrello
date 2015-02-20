@@ -11,21 +11,19 @@
 @implementation DashBoard
 
 -(Member *)getMember{
-    
-    return nil;
+    return member;
 }
 
 -(NSArray *)getOrganizations{
-    
-    return nil;
+    return organizations;
 }
 
 -(void)addBoard: (Board *)board{
-    
+    [boards addObject:board];
 }
 
 -(NSMutableArray *)getBoards{
-    return nil;
+    return boards;
 }
 
 @end

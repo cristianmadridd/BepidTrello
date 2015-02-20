@@ -15,7 +15,6 @@
     NSArray *organizations;
     Member *member;
     NSMutableArray *boards;
-    
 }
 
 -(NSArray*)getOrganizations;

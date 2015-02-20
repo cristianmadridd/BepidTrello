@@ -14,10 +14,9 @@
     NSData *initDate;
     NSMutableArray *comments;
     NSMutableArray *members;
-    
 }
 
-@property(getter=isArquived, setter=arquive:) BOOL *arquived;
+@property(getter=isArquived) BOOL *arquived;
 @property NSString *detail;
 @property NSData *dueDate;
 

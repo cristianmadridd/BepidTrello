@@ -29,7 +29,7 @@ typedef NS_ENUM(NSInteger, Color) {
     NSMutableArray *members;
 }
 
-@property(getter=isArquived, setter=arquive:) BOOL *arquived;
+@property(getter=isArquived) BOOL *arquived;
 @property Visibility visibility;
 @property NSString *name;
 @property Color background;

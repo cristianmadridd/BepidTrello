@@ -8,7 +8,6 @@
 
 #import "Board.h"
 
-
 @implementation Board
 
 - (instancetype)init
@@ -26,7 +25,6 @@
     list.name = listName;
     
     [lists addObject:list ];
-    
 }
 
 -(void)addMember:(Member *)member{

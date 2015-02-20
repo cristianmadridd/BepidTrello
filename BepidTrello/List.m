@@ -10,16 +10,22 @@
 
 @implementation List
 
--(void)removeCard:(Card *)card{
+-(NSMutableArray *)getCards{
+    return cards;
+}
 
+-(void)removeCard:(Card *)card{
+    [cards removeObject:card];
 }
 
 -(void)addCard: (Card *)card{
-    
+    [cards addObject:card];
 }
 
 -(void)archiveAllCards {
-    
+    for (Card *card in cards) {
+        *card.arquived = YES;
+    }
 }
 
 @end
