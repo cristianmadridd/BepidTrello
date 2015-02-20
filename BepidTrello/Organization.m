@@ -7,6 +7,8 @@
 //
 
 #import "Organization.h"
+#import "Board.h"
+#import "Member.h"
 
 @implementation Organization
 

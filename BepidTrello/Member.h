@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "DashBoard.h"
+@class DashBoard;
 
 @interface Member : NSObject {
     DashBoard *dashBoard;

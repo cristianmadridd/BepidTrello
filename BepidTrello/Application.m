@@ -7,7 +7,7 @@
 //
 
 #import "Application.h"
-#import "Members.h"
+#import "Member.h"
 
 @implementation Application
 
@@ -28,7 +28,7 @@
 }
 
 -(void)session{
-    Members *members = [[Members alloc] init];
+    Member *members = [[Member alloc] init];
     
     NSLog(@"Welcome to Trello");
     

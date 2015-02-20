@@ -7,6 +7,9 @@
 //
 
 #import "Board.h"
+#import "List.h"
+#import "Card.h"
+#import "Member.h"
 
 @implementation Board
 

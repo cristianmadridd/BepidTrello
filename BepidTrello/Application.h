@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Member.h"
+@class Member;
 
 @interface Application : NSObject{
     NSMutableArray *users;

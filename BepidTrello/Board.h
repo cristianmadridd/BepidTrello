@@ -7,9 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "List.h"
-#import "Card.h"
-#import "Member.h"
+
 
 typedef NS_ENUM(NSInteger, Visibility) {
     PUBLIC,
@@ -26,6 +24,7 @@ typedef NS_ENUM(NSInteger, Color) {
     RED
 };
 
+@class Member, Card, List;
 @interface Board : NSObject{
     NSMutableArray *lists;
     NSMutableArray *members;
