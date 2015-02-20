@@ -15,6 +15,7 @@
 		40C096931A963FD400A88F27 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096921A963FD400A88F27 /* Card.m */; };
 		40C096961A963FF300A88F27 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096951A963FF300A88F27 /* List.m */; };
 		40C0969C1A964B6000A88F27 /* DashBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0969B1A964B6000A88F27 /* DashBoard.m */; };
+		52D27E1B1A97690600B63366 /* Members.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D27E1A1A97690600B63366 /* Members.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,6 +47,8 @@
 		40C096951A963FF300A88F27 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
 		40C0969A1A964B6000A88F27 /* DashBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoard.h; sourceTree = "<group>"; };
 		40C0969B1A964B6000A88F27 /* DashBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoard.m; sourceTree = "<group>"; };
+		52D27E191A97690600B63366 /* Members.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Members.h; sourceTree = "<group>"; };
+		52D27E1A1A97690600B63366 /* Members.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Members.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				40C0969B1A964B6000A88F27 /* DashBoard.m */,
 				40B255821A966CBE0005B1B9 /* Application.h */,
 				40B255831A966CBE0005B1B9 /* Application.m */,
+				52D27E191A97690600B63366 /* Members.h */,
+				52D27E1A1A97690600B63366 /* Members.m */,
 			);
 			path = BepidTrello;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 				40B255841A966CBE0005B1B9 /* Application.m in Sources */,
 				40C096961A963FF300A88F27 /* List.m in Sources */,
 				40C096901A963FC100A88F27 /* Board.m in Sources */,
+				52D27E1B1A97690600B63366 /* Members.m in Sources */,
 				40C096821A96369400A88F27 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
