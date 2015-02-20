@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		40B255841A966CBE0005B1B9 /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B255831A966CBE0005B1B9 /* Application.m */; };
+		40B255871A9794200005B1B9 /* Members.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B255861A9794200005B1B9 /* Members.m */; };
+		40B255891A97953F0005B1B9 /* Members.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B255881A97953F0005B1B9 /* Members.m */; };
 		40C096821A96369400A88F27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096811A96369400A88F27 /* main.m */; };
 		40C0968A1A963FA400A88F27 /* Organization.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096891A963FA400A88F27 /* Organization.m */; };
 		40C0968D1A963FB500A88F27 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0968C1A963FB500A88F27 /* Member.m */; };
@@ -32,6 +34,9 @@
 /* Begin PBXFileReference section */
 		40B255821A966CBE0005B1B9 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
 		40B255831A966CBE0005B1B9 /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
+		40B255851A9794130005B1B9 /* Members.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Members.h; sourceTree = "<group>"; };
+		40B255861A9794200005B1B9 /* Members.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Members.m; sourceTree = "<group>"; };
+		40B255881A97953F0005B1B9 /* Members.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Members.m; sourceTree = "<group>"; };
 		40C0967E1A96369400A88F27 /* BepidTrello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BepidTrello; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C096811A96369400A88F27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		40C096881A963FA400A88F27 /* Organization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Organization.h; sourceTree = "<group>"; };
@@ -90,9 +95,12 @@
 				40C096941A963FF300A88F27 /* List.h */,
 				40C096951A963FF300A88F27 /* List.m */,
 				40C0969A1A964B6000A88F27 /* DashBoard.h */,
+				40B255861A9794200005B1B9 /* Members.m */,
 				40C0969B1A964B6000A88F27 /* DashBoard.m */,
 				40B255821A966CBE0005B1B9 /* Application.h */,
 				40B255831A966CBE0005B1B9 /* Application.m */,
+				40B255881A97953F0005B1B9 /* Members.m */,
+				40B255851A9794130005B1B9 /* Members.h */,
 			);
 			path = BepidTrello;
 			sourceTree = "<group>";
@@ -154,12 +162,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				40C096931A963FD400A88F27 /* Card.m in Sources */,
+				40B255891A97953F0005B1B9 /* Members.m in Sources */,
 				40C0968A1A963FA400A88F27 /* Organization.m in Sources */,
 				40C0969C1A964B6000A88F27 /* DashBoard.m in Sources */,
 				40C0968D1A963FB500A88F27 /* Member.m in Sources */,
 				40B255841A966CBE0005B1B9 /* Application.m in Sources */,
 				40C096961A963FF300A88F27 /* List.m in Sources */,
 				40C096901A963FC100A88F27 /* Board.m in Sources */,
+				40B255871A9794200005B1B9 /* Members.m in Sources */,
 				40C096821A96369400A88F27 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
