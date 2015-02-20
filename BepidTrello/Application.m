@@ -14,22 +14,12 @@
 -(instancetype)init{
     self = [super init];
     if(self){
-        users = [[NSMutableArray alloc]init];
-        
-        NSLog(@"Welcome to trello");
-        
-        Member *user = [[Member alloc]init];
-        [user setUserName:@"joao"];
-        [user setPassword:@"joao123"];
-        
-        [self addUser:user];
+        members = [[Members alloc] init];
     }
     return self;
 }
 
 -(void)session{
-    Members *members = [[Members alloc] init];
-    
     NSLog(@"Welcome to Trello");
     
     NSLog(@"1 - Log In");
@@ -39,9 +29,11 @@
         case 1:
             NSLog(@"Log In");
             NSLog(@"Log in with email and password");
+            NSLog(@"Insert password");
             //[self verifyMemberByName:[self readStringInputFromUser:[NSCharacterSet newlineCharacterSet]]];
             if ([self verifyMemberByUsername:[self readStringInputFromUser]])
-                // pass to next stage
+                // if YES, pass to next stage
+                //verify password
             break;
         case 2:
             // do stuff
@@ -56,8 +48,7 @@
 
 -(int)readIntInputFromUser{
     int input;
-    scanf("%d", &input);
-    
+    scanf("%d", &input);    
     return input;
 }
 
@@ -82,30 +73,11 @@
 */
 
 
--(BOOL)verifyMemberByUsername: (NSString *)email{
-    
-    return NO;
-}
-
--(void)addUser:(Member *)member{
-    [users addObject:member];
-}
-
--(BOOL *)loginWithUserName:(NSString *)userName AndPassword:(NSString *)password{
-    Member *user = [self getUserByUserName:userName];
-    if(!user){
-        return NO;
-    }
-    return [[user getPassword] isEqualToString:password] ? YES : NO;
-}
-
--(Member *)getUserByUserName: (NSString *) userName{
-    for (Member *item in users) {
-        if([[item getUserName] isEqualToString:userName]){
-            return item;
-        }
-    }
-    return nil;
+-(BOOL)verifyMemberByUsername: (NSString *) email{
+    BOOL ret = NO;
+    if ([members isMember:email])
+        ret = YES;
+    return ret;
 }
 
 @end

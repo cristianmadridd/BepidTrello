@@ -20,10 +20,21 @@
 }
 
 -(BOOL)isMember:(NSString *) username{
-    for(Member* m in members){
-    }
+    BOOL ret = NO;
     
-    return NO;
+    if (members.count == 0){
+        ret =  NO;
+    }
+    else {
+        for (Member* m in members){
+            if ([[m getUserName] isEqualToString:username])
+                ret = YES;
+            else
+                ret = NO;
+        }
+        ret = NO;
+    }
+    return ret;
 }
 
 @end

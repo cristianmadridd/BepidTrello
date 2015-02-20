@@ -8,17 +8,17 @@
 
 #import <Foundation/Foundation.h>
 #import "Member.h"
+#import "Members.h"
 
 @interface Application : NSObject{
-    NSMutableArray *users;
+     Members *members;
 }
 
 -(void)session;
 -(int)readIntInputFromUser;
 //-(NSString *)readStringInputFromUser:(NSCharacterSet *)delimiters;
 -(NSString *)readStringInputFromUser;
--(BOOL)verifyMemberByUsername: (NSString *)email;
+-(BOOL)verifyMemberByUsername: (NSString *)username;
 -(BOOL *)loginWithUserName: (NSString *) userName AndPassword: (NSString *) password;
--(void)addUser: (Member *)member;
 
 @end
