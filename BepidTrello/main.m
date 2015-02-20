@@ -12,7 +12,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         Application *app = [[Application alloc] init];
-        [app session];
+        [app menu];
     }
     return 0;
 }

@@ -36,6 +36,9 @@
     }
     return ret;
 }
+-(void) addMember: (Member *)member{
+    [members addObject:member];
+}
 
 -(Member *)getMemberByUserName:(NSString *)username{
     Member *m = nil;

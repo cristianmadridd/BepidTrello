@@ -16,5 +16,6 @@
 
 -(BOOL)isMember:(NSString *) username;
 -(Member *)getMemberByUserName:(NSString *)username;
+-(void) addMember: (Member *)member;
 
 @end
