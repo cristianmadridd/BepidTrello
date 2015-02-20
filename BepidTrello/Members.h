@@ -15,5 +15,6 @@
 }
 
 -(BOOL)isMember:(NSString *) username;
+-(Member *)getMemberByUserName:(NSString *)username;
 
 @end

@@ -7,20 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40B255841A966CBE0005B1B9 /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B255831A966CBE0005B1B9 /* Application.m */; };
-		40B2558B1A97A1A70005B1B9 /* Members.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B2558A1A97A1A70005B1B9 /* Members.m */; };
-		40C096821A96369400A88F27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096811A96369400A88F27 /* main.m */; };
-		40C0968A1A963FA400A88F27 /* Organization.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096891A963FA400A88F27 /* Organization.m */; };
-		40C0968D1A963FB500A88F27 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0968C1A963FB500A88F27 /* Member.m */; };
-		40C096901A963FC100A88F27 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0968F1A963FC100A88F27 /* Board.m */; };
-		40C096931A963FD400A88F27 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096921A963FD400A88F27 /* Card.m */; };
-		40C096961A963FF300A88F27 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C096951A963FF300A88F27 /* List.m */; };
-		40C0969C1A964B6000A88F27 /* DashBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 40C0969B1A964B6000A88F27 /* DashBoard.m */; };
-		52D27E1B1A97690600B63366 /* Members.m in Sources */ = {isa = PBXBuildFile; fileRef = 52D27E1A1A97690600B63366 /* Members.m */; };
+		DA8B83901A97A8EC00817163 /* Application.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B83801A97A8EC00817163 /* Application.m */; };
+		DA8B83911A97A8EC00817163 /* Board.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B83821A97A8EC00817163 /* Board.m */; };
+		DA8B83921A97A8EC00817163 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B83841A97A8EC00817163 /* Card.m */; };
+		DA8B83931A97A8EC00817163 /* DashBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B83861A97A8EC00817163 /* DashBoard.m */; };
+		DA8B83941A97A8EC00817163 /* List.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B83881A97A8EC00817163 /* List.m */; };
+		DA8B83951A97A8EC00817163 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B83891A97A8EC00817163 /* main.m */; };
+		DA8B83961A97A8EC00817163 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B838B1A97A8EC00817163 /* Member.m */; };
+		DA8B83971A97A8EC00817163 /* Members.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B838D1A97A8EC00817163 /* Members.m */; };
+		DA8B83981A97A8EC00817163 /* Organization.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B838F1A97A8EC00817163 /* Organization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		40C0967C1A96369400A88F27 /* CopyFiles */ = {
+		DA8B83731A97A81800817163 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -32,30 +31,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		40B255821A966CBE0005B1B9 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
-		40B255831A966CBE0005B1B9 /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
-		40B255851A9794130005B1B9 /* Members.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Members.h; sourceTree = "<group>"; };
-		40B2558A1A97A1A70005B1B9 /* Members.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Members.m; sourceTree = "<group>"; };
-		40C0967E1A96369400A88F27 /* BepidTrello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BepidTrello; sourceTree = BUILT_PRODUCTS_DIR; };
-		40C096811A96369400A88F27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		40C096881A963FA400A88F27 /* Organization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Organization.h; sourceTree = "<group>"; };
-		40C096891A963FA400A88F27 /* Organization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Organization.m; sourceTree = "<group>"; };
-		40C0968B1A963FB500A88F27 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
-		40C0968C1A963FB500A88F27 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
-		40C0968E1A963FC100A88F27 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
-		40C0968F1A963FC100A88F27 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
-		40C096911A963FD400A88F27 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
-		40C096921A963FD400A88F27 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
-		40C096941A963FF300A88F27 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
-		40C096951A963FF300A88F27 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
-		40C0969A1A964B6000A88F27 /* DashBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoard.h; sourceTree = "<group>"; };
-		40C0969B1A964B6000A88F27 /* DashBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoard.m; sourceTree = "<group>"; };
-		52D27E191A97690600B63366 /* Members.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Members.h; sourceTree = "<group>"; };
-		52D27E1A1A97690600B63366 /* Members.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Members.m; sourceTree = "<group>"; };
+		DA8B83751A97A81800817163 /* BepidTrello */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BepidTrello; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8B837F1A97A8EC00817163 /* Application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Application.h; sourceTree = "<group>"; };
+		DA8B83801A97A8EC00817163 /* Application.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Application.m; sourceTree = "<group>"; };
+		DA8B83811A97A8EC00817163 /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		DA8B83821A97A8EC00817163 /* Board.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Board.m; sourceTree = "<group>"; };
+		DA8B83831A97A8EC00817163 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		DA8B83841A97A8EC00817163 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		DA8B83851A97A8EC00817163 /* DashBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashBoard.h; sourceTree = "<group>"; };
+		DA8B83861A97A8EC00817163 /* DashBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashBoard.m; sourceTree = "<group>"; };
+		DA8B83871A97A8EC00817163 /* List.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = List.h; sourceTree = "<group>"; };
+		DA8B83881A97A8EC00817163 /* List.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = List.m; sourceTree = "<group>"; };
+		DA8B83891A97A8EC00817163 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA8B838A1A97A8EC00817163 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		DA8B838B1A97A8EC00817163 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		DA8B838C1A97A8EC00817163 /* Members.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Members.h; sourceTree = "<group>"; };
+		DA8B838D1A97A8EC00817163 /* Members.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Members.m; sourceTree = "<group>"; };
+		DA8B838E1A97A8EC00817163 /* Organization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Organization.h; sourceTree = "<group>"; };
+		DA8B838F1A97A8EC00817163 /* Organization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Organization.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		40C0967B1A96369400A88F27 /* Frameworks */ = {
+		DA8B83721A97A81800817163 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -65,47 +62,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40C096751A96369400A88F27 = {
+		DA8B836C1A97A81800817163 = {
 			isa = PBXGroup;
 			children = (
-				40C096801A96369400A88F27 /* BepidTrello */,
-				40C0967F1A96369400A88F27 /* Products */,
+				DA8B83771A97A81800817163 /* BepidTrello */,
+				DA8B83761A97A81800817163 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		40C0967F1A96369400A88F27 /* Products */ = {
+		DA8B83761A97A81800817163 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				40C0967E1A96369400A88F27 /* BepidTrello */,
+				DA8B83751A97A81800817163 /* BepidTrello */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		40C096801A96369400A88F27 /* BepidTrello */ = {
+		DA8B83771A97A81800817163 /* BepidTrello */ = {
 			isa = PBXGroup;
 			children = (
-				40C096811A96369400A88F27 /* main.m */,
-				40C096881A963FA400A88F27 /* Organization.h */,
-				40C096891A963FA400A88F27 /* Organization.m */,
-				40C0968B1A963FB500A88F27 /* Member.h */,
-				40C0968C1A963FB500A88F27 /* Member.m */,
-				40C0968E1A963FC100A88F27 /* Board.h */,
-				40C0968F1A963FC100A88F27 /* Board.m */,
-				40C096911A963FD400A88F27 /* Card.h */,
-				40C096921A963FD400A88F27 /* Card.m */,
-				40C096941A963FF300A88F27 /* List.h */,
-				40C096951A963FF300A88F27 /* List.m */,
-				40C0969A1A964B6000A88F27 /* DashBoard.h */,
-				40C0969B1A964B6000A88F27 /* DashBoard.m */,
-				40B2558A1A97A1A70005B1B9 /* Members.m */,
-				40B255821A966CBE0005B1B9 /* Application.h */,
-				40B255831A966CBE0005B1B9 /* Application.m */,
-<<<<<<< HEAD
-				40B255851A9794130005B1B9 /* Members.h */,
-=======
-				52D27E191A97690600B63366 /* Members.h */,
-				52D27E1A1A97690600B63366 /* Members.m */,
->>>>>>> origin/master
+				DA8B837F1A97A8EC00817163 /* Application.h */,
+				DA8B83801A97A8EC00817163 /* Application.m */,
+				DA8B83811A97A8EC00817163 /* Board.h */,
+				DA8B83821A97A8EC00817163 /* Board.m */,
+				DA8B83831A97A8EC00817163 /* Card.h */,
+				DA8B83841A97A8EC00817163 /* Card.m */,
+				DA8B83851A97A8EC00817163 /* DashBoard.h */,
+				DA8B83861A97A8EC00817163 /* DashBoard.m */,
+				DA8B83871A97A8EC00817163 /* List.h */,
+				DA8B83881A97A8EC00817163 /* List.m */,
+				DA8B83891A97A8EC00817163 /* main.m */,
+				DA8B838A1A97A8EC00817163 /* Member.h */,
+				DA8B838B1A97A8EC00817163 /* Member.m */,
+				DA8B838C1A97A8EC00817163 /* Members.h */,
+				DA8B838D1A97A8EC00817163 /* Members.m */,
+				DA8B838E1A97A8EC00817163 /* Organization.h */,
+				DA8B838F1A97A8EC00817163 /* Organization.m */,
 			);
 			path = BepidTrello;
 			sourceTree = "<group>";
@@ -113,13 +105,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40C0967D1A96369400A88F27 /* BepidTrello */ = {
+		DA8B83741A97A81800817163 /* BepidTrello */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40C096851A96369400A88F27 /* Build configuration list for PBXNativeTarget "BepidTrello" */;
+			buildConfigurationList = DA8B837C1A97A81800817163 /* Build configuration list for PBXNativeTarget "BepidTrello" */;
 			buildPhases = (
-				40C0967A1A96369400A88F27 /* Sources */,
-				40C0967B1A96369400A88F27 /* Frameworks */,
-				40C0967C1A96369400A88F27 /* CopyFiles */,
+				DA8B83711A97A81800817163 /* Sources */,
+				DA8B83721A97A81800817163 /* Frameworks */,
+				DA8B83731A97A81800817163 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -127,65 +119,61 @@
 			);
 			name = BepidTrello;
 			productName = BepidTrello;
-			productReference = 40C0967E1A96369400A88F27 /* BepidTrello */;
+			productReference = DA8B83751A97A81800817163 /* BepidTrello */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		40C096761A96369400A88F27 /* Project object */ = {
+		DA8B836D1A97A81800817163 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0610;
-				ORGANIZATIONNAME = "Trello Group";
+				ORGANIZATIONNAME = "Alexandre Mantovani Tavares";
 				TargetAttributes = {
-					40C0967D1A96369400A88F27 = {
+					DA8B83741A97A81800817163 = {
 						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
-			buildConfigurationList = 40C096791A96369400A88F27 /* Build configuration list for PBXProject "BepidTrello" */;
+			buildConfigurationList = DA8B83701A97A81800817163 /* Build configuration list for PBXProject "BepidTrello" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 40C096751A96369400A88F27;
-			productRefGroup = 40C0967F1A96369400A88F27 /* Products */;
+			mainGroup = DA8B836C1A97A81800817163;
+			productRefGroup = DA8B83761A97A81800817163 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40C0967D1A96369400A88F27 /* BepidTrello */,
+				DA8B83741A97A81800817163 /* BepidTrello */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		40C0967A1A96369400A88F27 /* Sources */ = {
+		DA8B83711A97A81800817163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40C096931A963FD400A88F27 /* Card.m in Sources */,
-				40C0968A1A963FA400A88F27 /* Organization.m in Sources */,
-				40C0969C1A964B6000A88F27 /* DashBoard.m in Sources */,
-				40C0968D1A963FB500A88F27 /* Member.m in Sources */,
-				40B255841A966CBE0005B1B9 /* Application.m in Sources */,
-				40C096961A963FF300A88F27 /* List.m in Sources */,
-				40C096901A963FC100A88F27 /* Board.m in Sources */,
-<<<<<<< HEAD
-				40B2558B1A97A1A70005B1B9 /* Members.m in Sources */,
-=======
-				52D27E1B1A97690600B63366 /* Members.m in Sources */,
->>>>>>> origin/master
-				40C096821A96369400A88F27 /* main.m in Sources */,
+				DA8B83941A97A8EC00817163 /* List.m in Sources */,
+				DA8B83911A97A8EC00817163 /* Board.m in Sources */,
+				DA8B83901A97A8EC00817163 /* Application.m in Sources */,
+				DA8B83981A97A8EC00817163 /* Organization.m in Sources */,
+				DA8B83931A97A8EC00817163 /* DashBoard.m in Sources */,
+				DA8B83961A97A8EC00817163 /* Member.m in Sources */,
+				DA8B83951A97A8EC00817163 /* main.m in Sources */,
+				DA8B83921A97A8EC00817163 /* Card.m in Sources */,
+				DA8B83971A97A8EC00817163 /* Members.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		40C096831A96369400A88F27 /* Debug */ = {
+		DA8B837A1A97A81800817163 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +213,7 @@
 			};
 			name = Debug;
 		};
-		40C096841A96369400A88F27 /* Release */ = {
+		DA8B837B1A97A81800817163 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -259,14 +247,14 @@
 			};
 			name = Release;
 		};
-		40C096861A96369400A88F27 /* Debug */ = {
+		DA8B837D1A97A81800817163 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		40C096871A96369400A88F27 /* Release */ = {
+		DA8B837E1A97A81800817163 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -276,25 +264,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		40C096791A96369400A88F27 /* Build configuration list for PBXProject "BepidTrello" */ = {
+		DA8B83701A97A81800817163 /* Build configuration list for PBXProject "BepidTrello" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40C096831A96369400A88F27 /* Debug */,
-				40C096841A96369400A88F27 /* Release */,
+				DA8B837A1A97A81800817163 /* Debug */,
+				DA8B837B1A97A81800817163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40C096851A96369400A88F27 /* Build configuration list for PBXNativeTarget "BepidTrello" */ = {
+		DA8B837C1A97A81800817163 /* Build configuration list for PBXNativeTarget "BepidTrello" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				40C096861A96369400A88F27 /* Debug */,
-				40C096871A96369400A88F27 /* Release */,
+				DA8B837D1A97A81800817163 /* Debug */,
+				DA8B837E1A97A81800817163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 40C096761A96369400A88F27 /* Project object */;
+	rootObject = DA8B836D1A97A81800817163 /* Project object */;
 }

@@ -37,4 +37,17 @@
     return ret;
 }
 
+-(Member *)getMemberByUserName:(NSString *)username{
+    Member *m = nil;
+    
+    if (members.count == 0)
+        m = nil;
+    
+    for (m in members) {
+        if ([[m getUserName] isEqualToString:username])
+            break;
+    }
+    return m;
+}
+
 @end
