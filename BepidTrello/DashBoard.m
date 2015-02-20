@@ -15,13 +15,12 @@
     if(self){
         organizations = [[NSMutableArray alloc]init];
         boards = [[NSMutableArray alloc]init];
-        member = [[Member alloc]init];
     }
     return self;
 }
 
--(Member *)getMember{
-    return member;
+-(void)addOrganization:(Organization *)organization{
+    [organizations addObject:organization];
 }
 
 -(NSMutableArray *)getOrganizations{

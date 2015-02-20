@@ -10,6 +10,13 @@
 
 @implementation Member
 
+-(instancetype)init{
+    self = [super init];
+    if(self){
+        [self createDashBoard];
+    }
+    return self;
+}
 
 -(NSString *)getUserName{
     return userName;
@@ -25,6 +32,17 @@
 
 -(void)setPassword:(NSString *)thePassword{
     password = thePassword;
+}
+
+-(DashBoard *)getDashBoard{
+    return dashBoard;
+}
+
+-(void)createDashBoard{
+    dashBoard = [[DashBoard alloc]init];
+    
+    Organization *organization = [[Organization alloc]init];
+    [dashBoard addOrganization:organization];
 }
 
 @end

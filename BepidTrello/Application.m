@@ -14,7 +14,15 @@
 -(instancetype)init{
     self = [super init];
     if(self){
+        users = [[NSMutableArray alloc]init];
         
+        NSLog(@"Welcome to trello");
+        
+        Member *user = [[Member alloc]init];
+        [user setUserName:@"joao"];
+        [user setPassword:@"joao123"];
+        
+        [self addUser:user];
     }
     return self;
 }
@@ -77,6 +85,27 @@
 -(BOOL)verifyMemberByUsername: (NSString *)email{
     
     return NO;
+}
+
+-(void)addUser:(Member *)member{
+    [users addObject:member];
+}
+
+-(BOOL *)loginWithUserName:(NSString *)userName AndPassword:(NSString *)password{
+    Member *user = [self getUserByUserName:userName];
+    if(!user){
+        return NO;
+    }
+    return [[user getPassword] isEqualToString:password] ? YES : NO;
+}
+
+-(Member *)getUserByUserName: (NSString *) userName{
+    for (Member *item in users) {
+        if([[item getUserName] isEqualToString:userName]){
+            return item;
+        }
+    }
+    return nil;
 }
 
 @end

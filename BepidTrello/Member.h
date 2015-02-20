@@ -7,8 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "DashBoard.h"
 
 @interface Member : NSObject {
+    DashBoard *dashBoard;
     NSString *userName;
     NSString *password;
 }
@@ -17,8 +19,10 @@
 
 -(NSString *)getUserName;
 -(NSString *)getPassword;
+-(DashBoard *)getDashBoard;
 
 -(void)setUserName: (NSString *)theUserName;
 -(void)setPassword: (NSString *)thePassword;
+
 
 @end
