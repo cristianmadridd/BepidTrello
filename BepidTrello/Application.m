@@ -20,7 +20,7 @@
 }
 
 -(void)session{
-    NSLog(@"Welcome to Trello");
+    NSLog(@"Welcome to Trellos");
     
     NSLog(@"1 - Log In");
     NSLog(@"2 - Sign Up");
