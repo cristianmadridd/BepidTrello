@@ -52,6 +52,7 @@
             break;
         case 2:
             NSLog(@"Sign In");
+            NSLog(@"Insert an email :");
             
             break;
         default:
