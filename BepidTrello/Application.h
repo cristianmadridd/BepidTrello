@@ -10,6 +10,8 @@
 #import "Member.h"
 #import "Members.h"
 
+@class Member;
+
 @interface Application : NSObject{
      Members *members;
 }

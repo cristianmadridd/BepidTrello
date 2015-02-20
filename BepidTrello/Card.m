@@ -7,6 +7,7 @@
 //
 
 #import "Card.h"
+#import "Member.h"
 
 @implementation Card 
 

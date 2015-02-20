@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Card.h"
+@class Card;
 
 @interface List : NSObject {
     NSMutableArray *cards;

@@ -7,7 +7,7 @@
 //
 
 #import "Application.h"
-#import "Members.h"
+#import "Member.h"
 
 @implementation Application
 

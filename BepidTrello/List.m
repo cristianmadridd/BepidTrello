@@ -7,6 +7,7 @@
 //
 
 #import "List.h"
+#import "Card.h"
 
 @implementation List
 

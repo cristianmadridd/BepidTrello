@@ -7,6 +7,8 @@
 //
 
 #import "DashBoard.h"
+#import "Board.h"
+#import "Organization.h"
 
 @implementation DashBoard
 
