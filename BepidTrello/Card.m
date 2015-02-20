@@ -11,20 +11,19 @@
 @implementation Card 
 
 -(void)addMember:(Member *)member{
-    
+    [members addObject:member];
 }
 
 -(NSMutableArray *): getMembers{
-    
-    return nil;
+    return members;
 }
 
 -(NSMutableArray *)getComments{
-    return nil;
+    return comments;
 }
 
 -(void)addComment:(NSString *)comment{
-    
+    [comments addObject:comment];
 }
 
 @end
