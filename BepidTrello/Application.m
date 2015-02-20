@@ -16,6 +16,12 @@
         users = [[NSMutableArray alloc]init];
         
         NSLog(@"Welcome to trello");
+        
+        Member *user = [[Member alloc]init];
+        [user setUserName:@"joao"];
+        [user setPassword:@"joao123"];
+        
+        [self addUser:user];
     }
     return self;
 }
