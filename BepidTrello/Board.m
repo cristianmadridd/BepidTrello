@@ -32,7 +32,8 @@
 }
 
 -(void)moveCard:(Card *)card fromList:(List *)fList toList:(List *)tList{
-    
+    [tList addCard:card];
+    [fList removeCard:card];
 }
 
 @end
