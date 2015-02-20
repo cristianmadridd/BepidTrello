@@ -10,8 +10,10 @@
 
 @interface Application : NSObject
 
--(void)initialize;
--(BOOL)userVerificationByName;
-//createUser
+-(void)session;
+-(int)readIntInputFromUser;
+//-(NSString *)readStringInputFromUser:(NSCharacterSet *)delimiters;
+-(NSString *)readStringInputFromUser;
+-(BOOL)verifyMemberByUsername: (NSString *)email;
 
 @end
