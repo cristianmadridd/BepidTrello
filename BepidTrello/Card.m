@@ -10,6 +10,17 @@
 
 @implementation Card 
 
+-(instancetype)init{
+    self = [super init];
+    if(self){
+        comments = [[NSMutableArray alloc]init];
+        members = [[NSMutableArray alloc]init];
+        initDate = [NSDate date];
+        _arquived = NO;
+    }
+    return self;
+}
+
 -(void)addMember:(Member *)member{
     [members addObject:member];
 }

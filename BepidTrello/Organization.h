@@ -15,6 +15,8 @@
     NSMutableArray  *members;
 }
 
+@property NSString *name;
+
 -(void)addBoard: (Board *)board;
 -(NSMutableArray *)getBoards;
 -(void)addMember: (Member *)member;

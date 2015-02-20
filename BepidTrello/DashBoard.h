@@ -12,12 +12,12 @@
 #import "Organization.h"
 
 @interface DashBoard : NSObject {
-    NSArray *organizations;
-    Member *member;
+    NSMutableArray *organizations;
     NSMutableArray *boards;
+    Member *member;
 }
 
--(NSArray*)getOrganizations;
+-(NSMutableArray*)getOrganizations;
 -(Member *)getMember;
 -(NSMutableArray *)getBoards;
 -(void)addBoard: (Board *)board;

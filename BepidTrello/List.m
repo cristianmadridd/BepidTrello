@@ -10,6 +10,15 @@
 
 @implementation List
 
+-(instancetype)init{
+    self = [super init];
+    if(self){
+        cards = [[NSMutableArray alloc]init];
+        _arquived = NO;
+    }
+    return self;
+}
+
 -(NSMutableArray *)getCards{
     return cards;
 }

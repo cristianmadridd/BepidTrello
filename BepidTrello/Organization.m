@@ -10,6 +10,14 @@
 
 @implementation Organization
 
+-(instancetype)init{
+    self = [super init];
+    if(self){
+        boards = [[NSMutableArray alloc]init];
+        members = [[NSMutableArray alloc]init];
+    }
+    return self;
+}
 
 -(NSMutableArray *) getBoards{
     return boards;

@@ -10,11 +10,21 @@
 
 @implementation DashBoard
 
+-(instancetype)init{
+    self = [super init];
+    if(self){
+        organizations = [[NSMutableArray alloc]init];
+        boards = [[NSMutableArray alloc]init];
+        member = [[Member alloc]init];
+    }
+    return self;
+}
+
 -(Member *)getMember{
     return member;
 }
 
--(NSArray *)getOrganizations{
+-(NSMutableArray *)getOrganizations{
     return organizations;
 }
 
