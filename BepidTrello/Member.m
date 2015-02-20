@@ -27,7 +27,7 @@
 }
 
 -(NSString *)getPassword{
-    return @"";
+    return @"sd";
 }
 
 -(void)setPassword:(NSString *)password{
