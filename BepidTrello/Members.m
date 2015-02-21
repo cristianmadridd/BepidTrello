@@ -19,38 +19,29 @@
     return self;
 }
 
--(BOOL)isMember:(NSString *) username{
-    BOOL ret = NO;
+-(BOOL)isMember:(NSString *) userName{
     
-    if (members.count == 0){
-        ret =  NO;
-    }
-    else {
-        for (Member* m in members){
-            if ([[m getUserName] isEqualToString:username])
-                ret = YES;
-            else
-                ret = NO;
+    for (Member *member in members){
+        if ([[member getUserName] isEqualToString:userName]) {
+            return YES;
         }
-        ret = NO;
     }
-    return ret;
+    return NO;
 }
+
 -(void) addMember: (Member *)member{
     [members addObject:member];
 }
 
--(Member *)getMemberByUserName:(NSString *)username{
-    Member *m = nil;
+-(Member *)getMemberByUserName:(NSString *)userName{
     
-    if (members.count == 0)
-        m = nil;
-    
-    for (m in members) {
-        if ([[m getUserName] isEqualToString:username])
-            break;
+    for (Member *member in members) {
+        if ([[member getUserName] isEqualToString:userName]){
+            return member;
+        }
     }
-    return m;
+    
+    return nil;
 }
 
 @end

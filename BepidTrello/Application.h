@@ -7,10 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Member.h"
-#import "Members.h"
 
-@class Member;
+@class Member, Members;
 
 @interface Application : NSObject{
      Members *members;
@@ -20,7 +18,6 @@
 -(int)readIntInputFromUser;
 //-(NSString *)readStringInputFromUser:(NSCharacterSet *)delimiters;
 -(NSString *)readStringInputFromUser;
--(BOOL)verifyMemberByUsername: (NSString *)username;
 -(BOOL)loginWithUserName: (NSString *) userName AndPassword: (NSString *) password;
 
 @end
