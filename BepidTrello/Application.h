@@ -14,7 +14,6 @@
      Members *members;
 }
 
--(void) menu;
 -(int)readIntInputFromUser;
 //-(NSString *)readStringInputFromUser:(NSCharacterSet *)delimiters;
 -(NSString *)readStringInputFromUser;

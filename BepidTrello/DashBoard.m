@@ -8,25 +8,15 @@
 
 #import "DashBoard.h"
 #import "Board.h"
-#import "Organization.h"
 
 @implementation DashBoard
 
 -(instancetype)init{
     self = [super init];
     if(self){
-        organizations = [[NSMutableArray alloc]init];
         boards = [[NSMutableArray alloc]init];
     }
     return self;
-}
-
--(void)addOrganization:(Organization *)organization{
-    [organizations addObject:organization];
-}
-
--(NSMutableArray *)getOrganizations{
-    return organizations;
 }
 
 -(void)addBoard: (Board *)board{

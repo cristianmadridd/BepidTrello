@@ -16,7 +16,6 @@
     if(self){
         comments = [[NSMutableArray alloc]init];
         members = [[NSMutableArray alloc]init];
-        initDate = [NSDate date];
         _arquived = NO;
     }
     return self;
@@ -26,7 +25,7 @@
     [members addObject:member];
 }
 
--(NSMutableArray *): getMembers{
+-(NSMutableArray *)getMembers{
     return members;
 }
 

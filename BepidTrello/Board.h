@@ -15,28 +15,19 @@ typedef NS_ENUM(NSInteger, Visibility) {
     ORGANIZATION
 };
 
-typedef NS_ENUM(NSInteger, Color) {
-    BLUE,
-    YELLOW,
-    WHITE,
-    GREEN,
-    BLACK,
-    RED
-};
-
 @class Member, Card, List;
 @interface Board : NSObject{
     NSMutableArray *lists;
     NSMutableArray *members;
 }
 
-@property(getter=isArquived) BOOL *arquived;
 @property Visibility visibility;
 @property NSString *name;
-@property Color background;
 
--(void) addList: (NSString *) listName;
+-(NSMutableArray *) getLists;
+-(void) addList: (List *) list;
 -(void) addMember: (Member *) member;
--(void) moveCard: (Card *) card fromList:(List *) fList toList: (List *) tList;
+-(void) removeMember:(Member *)member;
+-(NSMutableArray *) getMembers;
 
 @end

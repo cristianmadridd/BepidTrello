@@ -10,13 +10,8 @@
 @class Board, Organization;
 
 @interface DashBoard : NSObject {
-    NSMutableArray *organizations;
     NSMutableArray *boards;
 }
-
--(void)addOrganization:(Organization *)organization;
-
--(NSMutableArray*)getOrganizations;
 -(NSMutableArray *)getBoards;
 -(void)addBoard: (Board *)board;
 

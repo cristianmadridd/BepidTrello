@@ -15,7 +15,6 @@
 		DA8B83951A97A8EC00817163 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B83891A97A8EC00817163 /* main.m */; };
 		DA8B83961A97A8EC00817163 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B838B1A97A8EC00817163 /* Member.m */; };
 		DA8B83971A97A8EC00817163 /* Members.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B838D1A97A8EC00817163 /* Members.m */; };
-		DA8B83981A97A8EC00817163 /* Organization.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B838F1A97A8EC00817163 /* Organization.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,8 +46,6 @@
 		DA8B838B1A97A8EC00817163 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
 		DA8B838C1A97A8EC00817163 /* Members.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Members.h; sourceTree = "<group>"; };
 		DA8B838D1A97A8EC00817163 /* Members.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Members.m; sourceTree = "<group>"; };
-		DA8B838E1A97A8EC00817163 /* Organization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Organization.h; sourceTree = "<group>"; };
-		DA8B838F1A97A8EC00817163 /* Organization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Organization.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +93,6 @@
 				DA8B838B1A97A8EC00817163 /* Member.m */,
 				DA8B838C1A97A8EC00817163 /* Members.h */,
 				DA8B838D1A97A8EC00817163 /* Members.m */,
-				DA8B838E1A97A8EC00817163 /* Organization.h */,
-				DA8B838F1A97A8EC00817163 /* Organization.m */,
 			);
 			path = BepidTrello;
 			sourceTree = "<group>";
@@ -161,7 +156,6 @@
 				DA8B83941A97A8EC00817163 /* List.m in Sources */,
 				DA8B83911A97A8EC00817163 /* Board.m in Sources */,
 				DA8B83901A97A8EC00817163 /* Application.m in Sources */,
-				DA8B83981A97A8EC00817163 /* Organization.m in Sources */,
 				DA8B83931A97A8EC00817163 /* DashBoard.m in Sources */,
 				DA8B83961A97A8EC00817163 /* Member.m in Sources */,
 				DA8B83951A97A8EC00817163 /* main.m in Sources */,

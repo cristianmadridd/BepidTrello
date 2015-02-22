@@ -8,7 +8,6 @@
 
 #import "Member.h"
 #import "DashBoard.h"
-#import "Organization.h"
 
 @implementation Member
 
@@ -42,9 +41,6 @@
 
 -(void)createDashBoard{
     dashBoard = [[DashBoard alloc]init];
-    
-    Organization *organization = [[Organization alloc]init];
-    [dashBoard addOrganization:organization];
 }
 
 @end

@@ -8,7 +8,6 @@
 
 #import "Board.h"
 #import "List.h"
-#import "Card.h"
 #import "Member.h"
 
 @implementation Board
@@ -23,20 +22,24 @@
     return self;
 }
 
--(void)addList:(NSString *)listName{
-    List *list = [[List alloc] init];
-    list.name = listName;
-    
-    [lists addObject:list ];
+-(void)addList:(List *)list{
+    [lists addObject:list];
 }
 
 -(void)addMember:(Member *)member{
     [members addObject:member];
 }
 
--(void)moveCard:(Card *)card fromList:(List *)fList toList:(List *)tList{
-    [tList addCard:card];
-    [fList removeCard:card];
+-(void)removeMember:(Member *)member{
+    [members removeObject:member];
+}
+
+-(NSMutableArray *)getLists{
+    return lists;
+}
+
+-(NSMutableArray *)getMembers{
+    return members;
 }
 
 @end

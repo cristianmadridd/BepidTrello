@@ -11,19 +11,18 @@
 
 @interface Card : NSObject
 {
-    NSDate *initDate;
     NSMutableArray *comments;
     NSMutableArray *members;
 }
 
 @property(getter=isArquived) BOOL *arquived;
 @property NSString *detail;
-@property NSDate *dueDate;
+@property NSString *name;
 
 -(void)addMember: (Member *)member;
 -(void)addComment: (NSString *)comment;
 
--(NSMutableArray *): getMembers;
+-(NSMutableArray *)getMembers;
 -(NSMutableArray *)getComments;
 
 @end

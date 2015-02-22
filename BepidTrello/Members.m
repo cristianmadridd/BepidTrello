@@ -19,6 +19,10 @@
     return self;
 }
 
+-(NSMutableArray *)getMembers{
+    return members;
+}
+
 -(BOOL)isMember:(NSString *) userName{
     
     for (Member *member in members){
