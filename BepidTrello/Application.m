@@ -395,38 +395,28 @@ Member *loggedMember;
 
 -(void)addMemberToCard:(NSMutableArray *)membersOfCard{
     
-    BOOL *aux = NO;
-    
-    do{
-        printf("\nInsert the userName: ");
-        NSString *userName = [self readStringInputFromUser];
-        if ([members isMember:userName]) {
-            
-            if (membersOfCard.count == 0) {
-                [membersOfCard addObject:userName];
-                break;
-            }
-            else{
-                for (int i=0;i< membersOfCard.count;i++) {
-                    if([[membersOfCard objectAtIndex:i] isEqualToString:userName]){
-                        break;
-                    }
-                    if (i == membersOfCard.count-1) {
-                        [membersOfCard addObject:userName];
-                        aux = YES;
-                        break;
-                    }
-                }
-                 printf("\n!!!!! Member already added!!!!!");
-                 break;
-            }
+    printf("\nInsert the userName: ");
+    NSString *userName = [self readStringInputFromUser];
+    if ([members isMember:userName]) {
+        
+        if (membersOfCard.count == 0) {
+            [membersOfCard addObject:userName];
         }
         else{
-            printf("\n!!!!! Invalid username!!!!!");
-            break;
+            for (int i=0;i< membersOfCard.count;i++) {
+                if([[membersOfCard objectAtIndex:i] isEqualToString:userName]){
+                    break;
+                }
+                if (i == membersOfCard.count-1) {
+                    [membersOfCard addObject:userName];
+                }
+            }
+            printf("\n!!!!! Member already added!!!!!");
         }
     }
-    while(!aux);
+    else{
+        printf("\n!!!!! Invalid username!!!!!");
+    }
 }
 
 -(void)addCommentsToCard:(NSMutableArray *)commentsOfCard{
@@ -626,7 +616,7 @@ Member *loggedMember;
         }
         
         for (Board *board in [[el getDashBoard] getBoards]) {
-            BOOL *exists = NO;
+            BOOL exists = NO;
             for (Board *b in boards){
                 if ([board isEqualTo:b]) {
                     exists = YES;
@@ -645,7 +635,7 @@ Member *loggedMember;
     return boards;
 }
 
--(BOOL *)isInteger:(NSString *)value{
+-(BOOL)isInteger:(NSString *)value{
     return !([value rangeOfCharacterFromSet:
               [[NSCharacterSet decimalDigitCharacterSet] invertedSet]].location != NSNotFound);
 }

@@ -2,7 +2,7 @@
 //  Application.h
 //  BepidTrello
 //
-//  Created by Alexandre Mantovani, Anderson Kloss, Cristian Madrid, Elisa Leo on 2/23/15.
+//  Created by Alexandre Mantovani, Anderson Kloss, Cristian Madrid, Elisa Leo on 2/23/15m .
 //  Copyright (c) 2015 Trello Group. All rights reserved.
 //
 
