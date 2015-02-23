@@ -5,6 +5,7 @@
 //  Created by Alexandre Mantovani, Anderson Kloss, Cristian Madrid, Elisa Leo on 2/19/15.
 //  Copyright (c) 2015 Trello Group. All rights reserved.
 //
+
 #include <stdlib.h>
 #import "Application.h"
 #import "Member.h"
@@ -31,6 +32,8 @@ Member *loggedMember;
 #pragma mark Menu
 
 -(void)masterMenu{
+    
+    printf("\n##################### Welcome to Trello #############################\n");
     
     loggedMember = nil;
     BOOL *aux = NO;

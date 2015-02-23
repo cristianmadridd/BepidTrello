@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "BepidTrello/Application.m"
-            timestampString = "446152600.192498"
+            timestampString = "446406537.186643"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "91"
-            endingLineNumber = "91"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
             landmarkName = "-dashBoardMenu"
             landmarkType = "5">
          </BreakpointContent>
