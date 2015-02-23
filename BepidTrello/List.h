@@ -19,6 +19,5 @@
 -(NSMutableArray *)getCards;
 -(void)removeCard: (Card *)card;
 -(void)addCard: (Card *)card;
--(void)archiveAllCards;
 
 @end

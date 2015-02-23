@@ -32,10 +32,4 @@
     [cards addObject:card];
 }
 
--(void)archiveAllCards {
-    for (Card *card in cards) {
-        *card.arquived = YES;
-    }
-}
-
 @end

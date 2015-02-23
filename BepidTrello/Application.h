@@ -15,7 +15,6 @@
 }
 
 -(int)readIntInputFromUser;
-//-(NSString *)readStringInputFromUser:(NSCharacterSet *)delimiters;
 -(NSString *)readStringInputFromUser;
 -(BOOL)loginWithUserName: (NSString *) userName AndPassword: (NSString *) password;
 
