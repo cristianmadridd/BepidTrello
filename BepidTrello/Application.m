@@ -609,7 +609,7 @@ Member *loggedMember;
 
 -(NSMutableArray *)getAllBoardsOfMember:(Member *)member{
     
-    NSMutableArray *boards = [[member getDashBoard] getBoards];
+    NSMutableArray *boards = [[[member getDashBoard] getBoards] mutableCopy];
     for (Member *el in [members getMembers]) {
         if([[el getUserName] isEqualToString:[member getUserName]]){
             continue;
